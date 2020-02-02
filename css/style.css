@@ -114,7 +114,7 @@ section:nth-of-type(3) div:nth-of-type(1) ul{
 
 section:nth-of-type(3) div:nth-of-type(1) ul li{
 	list-style-type: none;
-	
+	box-shadow: 2px 2px 2px 2px black;
 	margin:1px;
 	display: flex;
 	justify-content: center;
@@ -122,6 +122,7 @@ section:nth-of-type(3) div:nth-of-type(1) ul li{
 	text-align: center;
 	padding: 2.5rem;
 	background: white;
+	font-weight: bolder;
 }
 
 section:nth-of-type(3) div:nth-of-type(1) ul li:hover{
@@ -146,6 +147,15 @@ section:nth-of-type(3) div:nth-of-type(2) img{
 
 	header{
 		background: black;
+	}
+
+	section:nth-of-type(1) div{
+		width: 80%;
+	}
+
+	section:nth-of-type(1) div h2{
+		font-size: 2rem;
+
 	}
 	header ul{
 		display: none;
