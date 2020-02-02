@@ -2,19 +2,25 @@
 	margin:0;
 	padding: 0;
 	font-family: arial;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 header{
-	background: black;
+	background: rgba(0,0,0,0.7);
 	height: 60px;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	position: fixed;
+	top:0;
+	box-shadow: 1px 1px 1px white;
 }
 
 header h1{
 	color:white;
+
 }
 
 header ul{
@@ -27,7 +33,7 @@ header ul li{
 	padding:0.5rem;
 }
 
-section{
+section:nth-of-type(1){
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -39,7 +45,7 @@ section{
 	min-height: 438px;
 }
 
-section div{
+section:nth-of-type(1) div{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -51,16 +57,88 @@ section div{
 
 }
 
-section h2{
+section:nth-of-type(1) h2{
 	padding: 0.5rem;
-	font-size: 2rem;
+	font-size: 3rem;
+	text-shadow: 1px 1px 1px black;
 	color:white;
 
 }
-section h3{
+section:nth-of-type(1) h3{
 	padding: 0.5rem;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	color: white;
+	text-shadow: 1px 1px 1px black;
 }
+
+section:nth-of-type(2){
+	display: flex;
+	background: skyblue;
+	justify-content: center;
+	text-align: center;
+	padding: 3rem;
+
+
+}
+
+section:nth-of-type(2) p{
+	font-size: 3.5rem;
+	text-align: center;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	color:white;
+}
+
+section:nth-of-type(2) p:nth-of-type(1){
+	font-weight:bolder;
+	color:black;
+}
+
+
+section:nth-of-type(3){
+	display: flex;
+	align-items: center;
+	background: rgb(2,63,250);
+	padding: 2rem;
+}
+
+section:nth-of-type(3) div:nth-of-type(1){
+
+
+}
+section:nth-of-type(3) div:nth-of-type(1) ul{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+section:nth-of-type(3) div:nth-of-type(1) ul li{
+	list-style-type: none;
+	
+	margin:1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2.5rem;
+	background: white;
+}
+
+section:nth-of-type(3) div:nth-of-type(1) ul li:hover{
+	padding: 3rem;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+section:nth-of-type(3) div:nth-of-type(2){
+
+}
+
+section:nth-of-type(3) div:nth-of-type(2) img{
+	
+
+}
+
+
 
 
