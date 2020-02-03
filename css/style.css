@@ -43,6 +43,7 @@ section:nth-of-type(1){
 	background-image: url('../img/section1.jpg');
 	background-size: 100% auto;
 	/*min-height: 438px; */
+	background-repeat: no-repeat;
 }
 
 section:nth-of-type(1) div{
@@ -148,6 +149,12 @@ section:nth-of-type(3) div:nth-of-type(2) img{
 
 	header{
 		background: black;
+	}
+
+	section:nth-of-type(1){
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+
 	}
 
 	section:nth-of-type(1) div{
