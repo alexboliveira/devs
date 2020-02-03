@@ -7,14 +7,14 @@
 }
 
 header{
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,1);
 	height: 60px;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	position: fixed;
-	top:0;
+	
+	
 	box-shadow: 1px 1px 1px white;
 }
 
